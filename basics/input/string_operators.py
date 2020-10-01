@@ -5,5 +5,7 @@ print ("Bleep has ", energy, " energy")
 shields = int (input  ("Please enter the shield level "))
 print ("Showing display")
 print ("")
-print ("Lives: ", lives * "♥")
+print ("Lives:   ", lives * "♥")
+print ("Energy:  ", energy * "♦")
+print ("Shields: ", shields * "♦")
 
