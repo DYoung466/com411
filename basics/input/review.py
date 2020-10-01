@@ -21,4 +21,4 @@ if (A1Var == "A") or (A1Var == "a"):
 elif (A1Var =="print") or (A1Var =="Print"):
   print("Correct, but please only enter the letter")
 else:
-  print("Incorrect, the corr")
+  print("Incorrect, the correct answer was A")
