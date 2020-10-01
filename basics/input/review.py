@@ -37,10 +37,10 @@ print ("B. Beans")
 print ("C. Float")
 print ("D. String")
 A2Var = input ("Please type the letter of your answer  ")
-if (A2Var == "B") or (A1Var == "b"):
+if (A2Var == "B") or (A2Var == "b"):
   print ("Correct!") 
   EnergyVar = EnergyVar + 1
-elif (A2Var =="beans") or (A1Var =="Beans"):
+elif (A2Var =="beans") or (A2Var =="Beans"):
   print ("Correct, but please only enter the letter")
   EnergyVar =EnergyVar + 1
 else:
