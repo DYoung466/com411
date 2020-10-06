@@ -1,2 +1,2 @@
 language = "python3"
-run = "python basics/repetitons/while_loop/factorial.py"
+run = "python basics/repetitions/while_loop/factorial.py"
