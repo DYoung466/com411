@@ -8,7 +8,6 @@ def box_function ():
   print(("#"*((len(word_var))+4)))
   return word_var
 
-<<<<<<< HEAD
 ##To obtain lowercase 32 must be added to the original ASCII value
 
 def lower_case():
@@ -34,7 +33,6 @@ def upper_case():
   print("")
   return word_var
 
+lower_case()
 upper_case()
-=======
 box_function()
->>>>>>> 412527869c4269610c44093074d6a8ea98b34b26
