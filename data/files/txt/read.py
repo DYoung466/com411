@@ -1,10 +1,10 @@
-def search (fileVar):
-  with open("locations.txt") as fileVar:
-    for line in fileVar:
-      print (line[0])
+def search (filePath):
+  with open(filePath) as fileVar:
+    for lines in fileVar:
+      print (lines)
 
 def run():
   print ("Searching")
-  search("locations.txt")
+  search("data/files/txt/locations.txt")
 
 run()
