@@ -17,11 +17,12 @@ def generate():
   for i in range(line_amount):
     data_var = data()
     print (data_var)
-    data_combined = ["colour"]+["marker"]+["ltype"]
+    data_combined = data_var["colour"]+data_var["marker"]+data_var["ltype"]
+    print (data_combined)
     plt.xlabel("x values")
     plt.ylabel("y values")
     plt.plot(x_list, y_list, data_combined)
-  plt.show
+    plt.show()
 
 def run():
   print("Running...")
