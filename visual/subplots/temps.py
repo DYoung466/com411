@@ -14,7 +14,7 @@ def read_data (file_path):
   return temps_list
 
 def run():
-  file_input = input("Where is the file located? ")
+  file_input = 'visual/subplots/temps.txt'
   var_list = read_data(file_input)
   print (var_list)
   x = range(0,7,1)
