@@ -1,2 +1,2 @@
 language = "python3"
-run = "python visual/subplots/temps.py"
+run = "python visual/animations/simple.py"
